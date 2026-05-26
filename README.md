@@ -15,8 +15,8 @@ The project is divided into two phases:
 
 ## 📂 Repository Structure
 ```text
-├── (Contains the raw and cleaned E-Commerce datasets - 
+├── (Contains the raw and cleaned E-Commerce datasets - https://www.kaggle.com/datasets/carrie1/ecommerce-data
 ├── ecommerce_statistical_analysis.ipynb 
-├── Statistical Testing Report.pdf
-├── Theoretical_statistical_derivations.pdf
+├── Statistical Testing Report.pdf                   # Practical Analysis
+├── Theoretical_statistical_derivations.pdf          # Theoretical Analysis
 └── README.md
