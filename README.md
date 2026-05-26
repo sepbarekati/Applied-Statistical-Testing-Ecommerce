@@ -6,7 +6,7 @@ An end-to-end data science assignment utilizing programmatic statistical testing
 This project explores the relationship between e-commerce transaction attributes (such as quantity, unit price, and geography) and purchasing behavior. By applying practical Python-based statistical testing to large-scale data, this project demonstrates a structured approach to analyzing highly skewed financial datasets and validating fundamental statistical assumptions.
 
 ## Project Structure
-- `ecommerce_statistical_analysis.ipynb`: Jupyter notebook containing the full data pipeline, EDA, and programmatic hypothesis tests.
+- `Statistical Testing on E-Commerce Dataset.ipynb`: Jupyter notebook containing the full data pipeline, EDA, and programmatic hypothesis tests.
 - `data.csv`: The primary dataset used for the analysis. https://www.kaggle.com/datasets/carriel/ecommerce-data
 - `Statistical Testing Report.pdf`: The final LaTeX-compiled academic summary of the findings.
 
