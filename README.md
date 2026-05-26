@@ -8,7 +8,7 @@ This project explores the relationship between e-commerce transaction attributes
 ## Project Structure
 - `ecommerce_statistical_analysis.ipynb`: Jupyter notebook containing the full data pipeline, EDA, and programmatic hypothesis tests.
 - `data.csv`: The primary dataset used for the analysis. https://www.kaggle.com/datasets/carriel/ecommerce-data
-- `Report.pdf`: The final LaTeX-compiled academic summary of the findings.
+- `Statistical Testing Report.pdf`: The final LaTeX-compiled academic summary of the findings.
 
 ## Key Phases
 1. **Exploratory Data Analysis (EDA):** Performed data cleaning, feature engineering (`revenue`), and visualization (histograms, boxplots) to identify severe right-skewness and extreme outliers in e-commerce financial metrics.
