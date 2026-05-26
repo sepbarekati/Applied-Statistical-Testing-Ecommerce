@@ -9,7 +9,7 @@ The project is divided into two phases:
 2. **Theoretical Analysis:** First-principles, manual mathematical derivations of standard hypothesis tests on a controlled study-performance dataset to demonstrate foundational statistical reasoning.
 
 ## 🛠️ Tools & Technologies
-* **Language:** Python 3.x
+* **Language:** Python 3.13
 * **Libraries:** `pandas`, `numpy`, `scipy.stats`, `matplotlib`, `seaborn`
 * **Documentation:** Jupyter Notebooks, LaTeX
 
@@ -17,5 +17,6 @@ The project is divided into two phases:
 ```text
 ├── (Contains the raw and cleaned E-Commerce datasets - 
 ├── ecommerce_statistical_analysis.ipynb 
-├── Statistical Testing Report.pdf         # Compiled academic report
+├── Statistical Testing Report.pdf
+├── Theoretical_statistical_derivations.pdf
 └── README.md
