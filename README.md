@@ -15,13 +15,7 @@ The project is divided into two phases:
 
 ## 📂 Repository Structure
 ```text
-├── data/
-│   └── (Contains the raw and cleaned E-Commerce datasets - ignored via .gitignore)
-├── notebooks/
-│   └── ecommerce_statistical_analysis.ipynb   # Phase 1: Python EDA and Hypothesis Testing
-├── reports/
-│   ├── Project_Report_Barekati.pdf            # Compiled academic report of Phase 1 findings
-│   └── Project_Report_Barekati.tex            # LaTeX source code for the report
-├── theoretical_math/
-│   └── theoretical_statistical_derivations.pdf # Phase 2: Manual derivations of test statistics
+├── (Contains the raw and cleaned E-Commerce datasets - 
+├── ecommerce_statistical_analysis.ipynb 
+├── Statistical Testing Report.pdf         # Compiled academic report
 └── README.md
