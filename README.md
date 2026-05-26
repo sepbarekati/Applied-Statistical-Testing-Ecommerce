@@ -1,22 +1,34 @@
-# Applied Statistical Testing on E-Commerce Data
-A comprehensive practical and theoretical statistical analysis of e-commerce transaction data using Python (SciPy/Pandas), exploring customer purchasing behavior through rigorous hypothesis testing.
+# E-Commerce Statistical Testing and Analysis
 
-## 📌 Project Overview
-This repository contains a comprehensive two-part data science project focusing on applied statistical inference and hypothesis testing. Developed as part of the Data Science coursework at **Shahid Beheshti University (Winter 2026)**, the project bridges the gap between programmatic data analysis in Python and theoretical mathematical foundations.
+An end-to-end data science assignment utilizing programmatic statistical testing to analyze online retail transaction data and evaluate standard hypothesis tests.
 
-The project is divided into two phases:
-1. **Practical Analysis:** Programmatic execution of statistical tests on a large-scale real-world E-commerce dataset using Python, including data cleaning, exploratory data analysis (EDA), and interpretation of parametric and non-parametric tests.
-2. **Theoretical Analysis:** First-principles, manual mathematical derivations of standard hypothesis tests on a controlled study-performance dataset to demonstrate foundational statistical reasoning.
+## Overview
+This project explores the relationship between e-commerce transaction attributes (such as quantity, unit price, and geography) and purchasing behavior. By applying practical Python-based statistical testing to large-scale data, this project demonstrates a structured approach to analyzing highly skewed financial datasets and validating fundamental statistical assumptions.
 
-## 🛠️ Tools & Technologies
-* **Language:** Python 3.13
-* **Libraries:** `pandas`, `numpy`, `scipy.stats`, `matplotlib`, `seaborn`
-* **Documentation:** Jupyter Notebooks, LaTeX
+## Project Structure
+- `ecommerce_statistical_analysis.ipynb`: Jupyter notebook containing the full data pipeline, EDA, and programmatic hypothesis tests.
+- `Statistical Testing on E-Commerce Dataset.html`: Compiled HTML report of the notebook findings.
+- `data.csv`: The primary dataset used for the analysis. https://www.kaggle.com/datasets/carriel/ecommerce-data
+- `Project_Report_Barekati.pdf`: The final LaTeX-compiled academic summary of the findings.
 
-## 📂 Repository Structure
-```text
-├── (Contains the raw and cleaned E-Commerce datasets - https://www.kaggle.com/datasets/carrie1/ecommerce-data
-├── ecommerce_statistical_analysis.ipynb 
-├── Statistical Testing Report.pdf                   # Practical Analysis
-├── Theoretical_statistical_derivations.pdf          # Theoretical Analysis
-└── README.md
+## Key Phases
+1. **Exploratory Data Analysis (EDA):** Performed data cleaning, feature engineering (`revenue`), and visualization (histograms, boxplots) to identify severe right-skewness and extreme outliers in e-commerce financial metrics.
+2. **Statistical Testing (Python):** Implemented Shapiro-Wilk, Spearman rank correlation, Welch's two-sample t-test, One-Way ANOVA, and Chi-Square tests using `scipy.stats` to segment and analyze transactional behavior across different countries.
+
+## Key Technologies
+- **Python:** Data manipulation and programmatic testing.
+- **SciPy/Pandas:** Statistical functions, hypothesis testing, and dataframe management.
+- **Seaborn/Matplotlib:** Statistical data visualization.
+- **LaTeX:** Academic report typesetting.
+
+## Metrics & Findings
+| Metric | Value |
+| :--- | :--- |
+| **Revenue Normality (Shapiro-Wilk p-value)** | < 0.0001 (Assumption Violated) |
+| **Price vs. Qty Correlation (Spearman $r_s$)** | -0.4032 (Inverse Relationship) |
+| **UK vs. Rest of World (t-statistic)** | -30.8258 |
+| **Top Countries Variance (ANOVA F-Statistic)** | 10.2228 |
+| **High-Value Independence (Chi-Square Stat)** | 358.1028 |
+
+## Author
+**Sepehr Barekati**
